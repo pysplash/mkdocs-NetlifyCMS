@@ -2,4 +2,17 @@ backend:
   name: git-gateway
   branch: main
 
+public_folder: "site"
+media_folder: "site/assets"
 publish_mode: editorial_workflow
+
+collections:
+  - name: "doc"
+    label: "Doc"
+    folder: "docs"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Publish Date", name: "date", widget: "string"}
