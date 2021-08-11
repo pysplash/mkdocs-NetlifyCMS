@@ -17,3 +17,12 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Publish Date", name: "date", widget: "string"}
+  - name: "getting-started"
+    label: "Getting Started"
+    folder: "docs/getting-started"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Publish Date", name: "date", widget: "string"}
