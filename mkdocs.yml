@@ -149,5 +149,5 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Getting started:
-    - Installation: getting-started.md
-    - Test Page: test-page.md
+    - Installation: getting-started/getting-started.md
+    - Test Page: getting-started/test-page.md
